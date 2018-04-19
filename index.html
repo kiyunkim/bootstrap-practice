@@ -27,7 +27,7 @@
 
   <div class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
     <div class="container">
-      <a href="/" class="navbar-brand">Bootswatch</a>
+      <a href="/bootswatch.html" class="navbar-brand">Bootswatch</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -94,7 +94,7 @@
 
   <div class="container-fluid border border-primary mt-5 mb-5 pb-5">
     <code>.container-fluid</code>
-    <div class="container p-1 border">
+    <div class="container py-1 shadow-lg">
       <code>.container</code>
       <p class="h4 mt-2">columns</h4>
       <div class="row mb-2 border">
@@ -126,30 +126,60 @@
       </div>
       <div class="row mb-2 border">
         <div class="col-sm"><code>.col-sm</code></div>
-        <div class="col-sm bg-light">2 of 4</div>
-        <div class="col-sm">3 of 4</div>
-        <div class="col-sm bg-light">4 of 4</div>
+        <div class="col-sm bg-light"><code>.col-sm</code></div>
+        <div class="col-sm"><code>.col-sm</code></div>
+        <div class="col-sm bg-light"><code>.col-sm</code></div>
       </div>
       <div class="row mb-4 border border">
         <div class="col-lg bg-light"><code>.col-lg</code></div>
-        <div class="col-lg">2 of 4</div>
-        <div class="col-lg bg-light">3 of 4</div>
-        <div class="col-lg">4 of 4</div>
+        <div class="col-lg"><code>.col-lg</code></div>
+        <div class="col-lg bg-light"><code>.col-lg</code></div>
+        <div class="col-lg"><code>.col-lg</code></div>
       </div>
-      <div class="row mb-2 border border-warning">
+      <p class="h6">columns don't have to add up to 12</p>
+      <div class="row mb-4 border">
         <div class="col-lg-4 bg-light"><code>.col-lg-4</code></div>
         <div class="col-lg-2"><code>.col-lg-2</code></div>
       </div>
-      <div class="row mb-2 border">
-        <div class="col">col</div>
-        <div class="col-6">col-6</div>
-        <div class="col">col</div>
+      <p class="h6">set width for certain columns (rest are auto)</p>
+      <div class="row mb-4 border">
+        <div class="col"><code>col</code></div>
+        <div class="col-6"><code>col-6</code></div>
+        <div class="col"><code>col</code></div>
       </div>
       <p>This example demonstrates a 25%/75% split on small devices, a 50%/50% split on medium devices, and a 33%/66% split on large and xlarge devices. On extra small devices, it will automatically stack (100%).</p>      
-      <div class="container-fluid">     
-        <div class="row mb-2">
-          <div class="col-sm-3 col-md-6 col-lg-4 bg-success">col-sm-3 col-md-6 col-lg-4</div>
-          <div class="col-sm-9 col-md-6 col-lg-8 bg-warning">col-sm-9 col-md-6 col-lg-8</div>
+      <div class="row mb-5">
+        <div class="col-sm-3 col-md-6 col-lg-4 bg-success">col-sm-3 col-md-6 col-lg-4</div>
+        <div class="col-sm-9 col-md-6 col-lg-8 bg-warning">col-sm-9 col-md-6 col-lg-8</div>
+      </div>
+      <p class="h2">colors</p>
+      <div class="row">
+        <div class="col-sm">
+          <p class="text-primary">.text-primary</p>
+          <p class="text-secondary">.text-secondary</p>
+          <p class="text-success">.text-success</p>
+          <p class="text-danger">.text-danger</p>
+          <p class="text-warning">.text-warning</p>
+          <p class="text-info">.text-info</p>
+          <p class="text-light bg-dark">.text-light</p>
+          <p class="text-dark">.text-dark</p>
+          <p class="text-body">.text-body</p>
+          <p class="text-muted">.text-muted</p>
+          <p class="text-white bg-dark">.text-white</p>
+          <p class="text-black-50">.text-black-50</p>
+          <p class="text-white-50 bg-dark">.text-white-50</p>    
+        </div>
+        <div class="col-sm">
+          <div class="p-2 mb-2 bg-primary text-white">.bg-primary</div>
+          <div class="p-2 mb-2 bg-secondary text-white">.bg-secondary</div>
+          <div class="p-2 mb-2 bg-success text-white">.bg-success</div>
+          <div class="p-2 mb-2 bg-danger text-white">.bg-danger</div>
+          <div class="p-2 mb-2 bg-warning text-dark">.bg-warning</div>
+          <div class="p-2 mb-2 bg-info text-white">.bg-info</div>
+          <div class="p-2 mb-2 bg-light text-dark">.bg-light</div>
+          <div class="p-2 mb-2 bg-dark text-white">.bg-dark</div>
+          <div class="p-2 mb-2 bg-white text-dark">.bg-white</div>
+          <div class="p-2 mb-2 bg-transparent text-dark">.bg-transparent</div>
         </div>
       </div>
     </div>
