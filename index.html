@@ -5,9 +5,9 @@
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
 
-  <!-- meta info for search 
-  <meta name="robots" content="index,follow">
+  <!-- meta info
   <meta name="author" content="name">
   <meta name="description" content="description here">
   <meta name="keywords" content="keywords,here">
@@ -16,6 +16,7 @@
   <link rel="shortcut icon" type="image/png" href="images/favicon.png" />
 
   <!-- css -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
   <link rel="stylesheet" href="css/lib/normalize-8.min.css">
   <link rel="stylesheet" href="css/lib/bootstrap-4.min.css">
   <link rel="stylesheet" href="css/main.css">
@@ -84,7 +85,7 @@
             <a class="nav-link" href="http://builtwithbootstrap.com/" target="_blank">Built With Bootstrap</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://wrapbootstrap.com/?ref=bsw" target="_blank">WrapBootstrap</a>
+            <a class="nav-link" href="http://colorfilter.wickline.org/" target="_blank">Colorblind Test</a>
           </li>
         </ul>
 
@@ -92,7 +93,7 @@
     </div>
   </div>
 
-  <div class="container-fluid bg-light mt-5 py-5">
+  <div class="container-fluid bg-lighter mt-5 py-5">
     <code>.container-fluid</code>
     <div class="container p-3 rounded shadow-lg bg-white">
       <div class="container-fluid">
@@ -163,6 +164,7 @@
             <p class="text-danger">.text-danger</p>
             <p class="text-warning">.text-warning</p>
             <p class="text-info">.text-info</p>
+            <p class="text-lighter bg-dark">.text-lighter</p>
             <p class="text-light bg-dark">.text-light</p>
             <p class="text-dark">.text-dark</p>
             <p class="text-body">.text-body</p>
@@ -172,13 +174,15 @@
             <p class="text-white-50 bg-dark">.text-white-50</p>    
           </div>
           <div class="col-sm">
-            <div class="p-2 mb-2 bg-custom text-body">.bg-custom</div>
+            <div class="p-2 mb-2 bg-custom text-dark">.bg-custom</div>
             <div class="p-2 mb-2 bg-primary text-white">.bg-primary</div>
             <div class="p-2 mb-2 bg-secondary text-white">.bg-secondary</div>
-            <div class="p-2 mb-2 bg-success text-white">.bg-success</div>
-            <div class="p-2 mb-2 bg-danger text-white">.bg-danger</div>
-            <div class="p-2 mb-2 bg-warning text-dark">.bg-warning</div>
-            <div class="p-2 mb-2 bg-info text-white">.bg-info</div>
+            <div class="p-2 mb-2 bg-success text-white"><i class="fas fa-check-circle px-1"></i> .bg-success</div>
+            <div class="p-2 mb-2 bg-success text-white"><i class="far fa-check-circle px-1"></i> .bg-success</div>
+            <div class="p-2 mb-2 bg-danger text-white"><i class="fas fa-exclamation-triangle px-1"></i> .bg-danger</div>
+            <div class="p-2 mb-2 bg-warning text-dark"><i class="fas fa-exclamation px-2"></i>.bg-warning</div>
+            <div class="p-2 mb-2 bg-info text-white"><i class="fas fa-info-circle px-1"></i> .bg-info</div>
+            <div class="p-2 mb-2 bg-lighter text-dark">.bg-lighter</div>
             <div class="p-2 mb-2 bg-light text-dark">.bg-light</div>
             <div class="p-2 mb-2 bg-dark text-white">.bg-dark</div>
             <div class="p-2 mb-2 bg-white text-dark">.bg-white</div>
@@ -196,7 +200,7 @@
   <script src="js/lib/bootstrap-4.min.js"></script>
   <script src="js/main.js"></script>
   
-  <!-- fontawesome icons -->
-  <script src="https://use.fontawesome.com/9361343b87.js"></script>
+  <!-- fontawesome icons
+  <script src="https://use.fontawesome.com/9361343b87.js"></script> -->
 </body>
 </html>
